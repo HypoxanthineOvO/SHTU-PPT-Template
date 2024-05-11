@@ -34,7 +34,6 @@ size: 16:9
 - [3. ZZZ]()
 
 ---
-## Contents
 <!-- _class: toc_b -->
 <!-- _header: Contents ![](./assets/ShanghaiTech_Logo_RGBA.png) -->
 <!-- _footer: "" -->
