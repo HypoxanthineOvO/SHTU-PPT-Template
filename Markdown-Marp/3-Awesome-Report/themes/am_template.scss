@@ -328,14 +328,14 @@ section.cover_e footer>img {
   transform: scale(1.2);
   background-color: rgba(255, 255, 255, 0);
   background-blend-mode: lighten;
-  filter: brightness(200%) grayscale(00%);
+  filter: brightness(100%) grayscale(00%);
 } 
 
 section.cover_e header>img {
   transform: scale(0.9);
   background-color: rgba(255, 255, 255, 0);
   background-blend-mode: lighten;
-  filter: brightness(1000%) grayscale(100%);
+  filter: brightness(100%) grayscale(100%);
 } 
 
 section.cover_e a::after {
@@ -1249,7 +1249,7 @@ section.pin-3 .rimg {
 }
 
 
-section.bq-blue blockquote, section.bq-red blockquote, section.bq-green blockquote, section.bq-purple blockquote, section.bq-black blockquote {
+section.bq-yellow blockquote, section.bq-blue blockquote, section.bq-red blockquote, section.bq-green blockquote, section.bq-purple blockquote, section.bq-black blockquote {
   padding: 1%;
   letter-spacing: 0px;
   border-left: none;
@@ -1262,13 +1262,13 @@ section.bq-purple blockquote p>strong {
 }
 
 
-section.bq-blue blockquote>p::before, section.bq-red blockquote>p::before, section.bq-green blockquote>p::before, section.bq-purple blockquote>p::before, section.bq-black blockquote>p::before {
+section.bq-yellow blockquote>p::before, section.bq-blue blockquote>p::before, section.bq-red blockquote>p::before, section.bq-green blockquote>p::before, section.bq-purple blockquote>p::before, section.bq-black blockquote>p::before {
   padding-right: 0px;
   content: "";
   color: white;
 }
 
-section.bq-blue blockquote>p:nth-child(1), section.bq-red blockquote>p:nth-child(1), section.bq-green blockquote>p:nth-child(1), section.bq-purple blockquote>p:nth-child(1), section.bq-black blockquote>p:nth-child(1) {
+section.bq-yellow blockquote>p:nth-child(1), section.bq-blue blockquote>p:nth-child(1), section.bq-red blockquote>p:nth-child(1), section.bq-green blockquote>p:nth-child(1), section.bq-purple blockquote>p:nth-child(1), section.bq-black blockquote>p:nth-child(1) {
   margin-bottom: -1px;
   line-height: 2rem;
   padding: 0.5% 0.5% 0.5% 1.5%;
@@ -1276,14 +1276,17 @@ section.bq-blue blockquote>p:nth-child(1), section.bq-red blockquote>p:nth-child
   font-size: 1.03rem;
 }
 
-section.bq-blue blockquote>p:not(:nth-child(1)), section.bq-red blockquote>p:not(:nth-child(1)), section.bq-green blockquote>p:not(:nth-child(1)), section.bq-purple blockquote>p:not(:nth-child(1)), section.bq-black blockquote>p:not(:nth-child(1)) {
+section.bq-yellow blockquote>p:not(:nth-child(1)), section.bq-blue blockquote>p:not(:nth-child(1)), section.bq-red blockquote>p:not(:nth-child(1)), section.bq-green blockquote>p:not(:nth-child(1)), section.bq-purple blockquote>p:not(:nth-child(1)), section.bq-black blockquote>p:not(:nth-child(1)) {
   padding: 1% 2%;
   background-color: rgb(228, 234, 246);
 }
 
+section.bq-yellow blockquote>p:nth-child(1) {
+  background-color: rgb(236, 194, 11);
+}
 
 section.bq-blue blockquote>p:nth-child(1) {
-  background-color: rgb(74, 232, 219);
+  background-color: rgb(129, 161, 193);
 }
 
 section.bq-red blockquote>p:nth-child(1) {
@@ -1300,6 +1303,12 @@ section.bq-purple blockquote>p:nth-child(1) {
 
 section.bq-black blockquote>p:nth-child(1) {
   background-color: rgb(67, 76, 94);
+}
+
+section.bq-yellow blockquote>p:nth-child(1)::before {
+  content: "\f0e0";
+  padding-right: 2%;
+  font-family: "FontAwesome";
 }
 
 section.bq-blue blockquote>p:nth-child(1)::before {
