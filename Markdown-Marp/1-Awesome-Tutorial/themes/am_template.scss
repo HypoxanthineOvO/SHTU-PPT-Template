@@ -22,12 +22,9 @@
   --font-size-code: 22px;
 }
 
-section:not(trans, cover_a, cover_b) {
-  
+section:not(trans, cover_a, cover_b, cover_c, cover_d, cover_e) {
   background-image: url(https://raw.githubusercontent.com/HypoxanthineOvO/HypoImager/main/Background.png);
   background-size: cover;
-
-
 }
 
 section {
