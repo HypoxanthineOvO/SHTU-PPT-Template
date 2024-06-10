@@ -22,14 +22,20 @@
   --font-size-code: 22px;
 }
 
+section:not(trans, cover_a, cover_b) {
+  
+  background-image: url(https://raw.githubusercontent.com/HypoxanthineOvO/HypoImager/main/Background.png);
+  background-size: cover;
 
+
+}
 
 section {
   font-family: var(--font-family-main);
   font-size: var(--font-size-main);
   color: var(--color-main);
   text-align: justify; 
-  }
+}
 
 h1 {
   font-family: var(--font-family-title); 
@@ -60,6 +66,7 @@ ol {
 }
 ol li::marker {
   color: var(--color-much);
+  background-image: url(https://raw.githubusercontent.com/HypoxanthineOvO/HypoImager/main/Background.png);
 }
 ul {
   line-height: 1.4rem;
@@ -1443,8 +1450,10 @@ section.navbar header>em>strong {
 
 
 section.trans  {
+  background-image: none;
   background-color: var(--color-trans);
 }
+
 section.trans h2{
   text-align: center; 
   color: var(--color-title);

@@ -52,8 +52,9 @@ size: 16:9
 
 ---
 ## 1. XXX
+---
+## 1. XXX
 <!-- _class: fixedtitleA -->
-![bg](./Background.png)
 
 Fixed title A. The title is always fixed at the top of the slide.
 
@@ -61,7 +62,6 @@ Fixed title A. The title is always fixed at the top of the slide.
 ## 1. XXX
 
 <!-- _class: fixedtitleB -->
-![bg](./Background.png)
 
 <div class="div">
 
@@ -73,7 +73,6 @@ This is the Fixed Title B. The title is always fixed at the top of the slide.
 ---
 ## 2. YYY
 <!-- _class: cols-2 -->
-![bg](./Background.png)
 <div class=ldiv>  
 
 Left Part
@@ -88,7 +87,6 @@ Right Part
 
 ---
 ## 2. YYY
-![bg](./Background.png)
 <!-- _class: cols-2 -->
 <!-- Others: cols-2-64, cols-2-37, cols-2-73, cols-2-46, cols-3, rows-2, pin-3 -->
 <div class=ldiv>  
@@ -104,7 +102,6 @@ Left Part
 
 ---
 ## 3. ZZZ
-![bg](./Background.png)
 
 Awesome Marp v1.3 提供了 6 种列表分列的方式，分别为：
 
@@ -117,13 +114,11 @@ Awesome Marp v1.3 提供了 6 种列表分列的方式，分别为：
 
 ---
 ## 3. ZZZ
-![bg](./Background.png)
 
 > Naive Quote
 
 ---
 ## 3. ZZZ
-![bg](./Background.png)
 <!-- _class:  bq-red -->
 
 > BQ Quote
